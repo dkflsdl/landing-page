@@ -1,0 +1,242 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+}
+
+.section {
+    flex:1 1 auto;
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 0 200px;
+    color: #F9FAF8;
+    background: #1F2937;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.one {
+    display: flex;
+    padding: 0 200px;
+    background: #1F2937;
+    height: 55vh;
+}
+
+.s1-content {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    margin: 100px 70px 0 0;
+}
+
+p {
+    color: lightgray;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 45px 0 0;
+}
+
+button {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.s1-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+    height: 4vh;
+    width: 7vw;
+    background: royalblue;
+    border: 1px solid royalblue;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+s1-button-link {
+    color: white;
+}
+
+.one .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #898999;
+    color: #F9FAF8;
+    height: 30vh;
+    width: 80vw;
+    margin: 100px 0 0 0;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.two {
+    background: #F9FAF8;
+    height: 55vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0 0 0;
+    gap: 70px;
+}
+
+.s2-title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.s2-content {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+  
+.content {
+    max-width: 180px;
+}
+
+.border {
+    border: 3px solid #3882F6;
+    height: 19vh;
+    width: 12vw;
+    border-radius: 15px;
+    margin: 10px 0 5px 0;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E7EB;
+    height: 55vh;
+}
+
+.s3-content {
+    padding: 75px 300px 75px 300px;
+}
+
+quote {
+    font-style: oblique;
+    font-size: 36px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+author {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 55px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F9FAF8;
+    height: 30vh;
+}
+
+.s4-background {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    height: 20vh;
+    width: 60vw;
+    border-radius: 8px;
+}
+
+.s4-text {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.s4-title {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: 500;
+    color: #F9FAF8;
+}
+
+.s4-body {
+    display: flex;
+    justify-content: flex-start;
+    color: lightgray;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.s4-signup {
+    display: flex;
+}
+
+.s4-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+    height: 5vh;
+    width: 7vw;
+    background: #3882F6;
+    border: 1px solid #F9FAF8;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.s4-button-link {
+    color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    color: #F9FAF8;
+    height: 8vh;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
